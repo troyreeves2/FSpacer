@@ -1,0 +1,17 @@
+﻿@model FSPACERFINAL.Models.SpacerCard
+
+@{
+    ViewData["Title"] = "Length";
+}
+
+
+<h2>Vertical Spacer Length: @Model.VerticalSpacerLength <br /></h2>
+<h2>Horizontal Spacer Length: @Model.HorizontalSpacerLength <br /></h2>
+
+
+<div class="span1">
+    <a asp-action="Index" class="btn btn-primary">
+        <i class="icon-eye-open icon-white"></i>
+        <span><strong>View your inputs</strong></span>
+    </a>
+</div>

@@ -1,0 +1,75 @@
+﻿@model FSPACERFINAL.Models.TestViewModel
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+
+
+<h2>Index</h2>
+
+
+<table class="table">
+    
+        <tr>           
+            <th>
+                @Html.DisplayNameFor(model => model.Backlash)
+            </th>
+            <td>
+                <input type="text" class="form-control" id="blacklash" asp-for="@Model.Backlash" />
+            </td>
+            <th>
+                @Html.DisplayNameFor(model => model.HorizontalSetting)
+            </th>
+            <td>
+                <input type="text" class="form-control" id="blacklash" asp-for="@Model.HorizontalSetting" />
+            </td>
+            <th>
+                @Html.DisplayNameFor(model => model.IntermediateSetting)
+            </th>
+            <td>
+                <input type="text" class="form-control" id="blacklash" asp-for="@Model.IntermediateSetting" />
+            </td>
+            <th>
+                @Html.DisplayNameFor(model => model.OutputSetting)
+            </th>
+            <td>
+                <input type="text" class="form-control" id="blacklash" asp-for="@Model.OutputSetting" />
+            </td>
+            <th>
+                @Html.DisplayNameFor(model => model.HelicalGearNumber)
+            </th>
+            <td>
+                <input type="text" class="form-control" id="blacklash" asp-for="@Model.HelicalGearNumber" />
+            </td>
+            <th>
+                @Html.DisplayNameFor(model => model.HelicalPinionNumber)
+            </th>
+            <td>
+                <input type="text" class="form-control" id="blacklash" asp-for="@Model.HelicalPinionNumber" />
+            </td>
+            <th>
+                @Html.DisplayNameFor(model => model.Drive)
+            </th>
+            <td>
+                <input type="text" class="form-control" id="blacklash" asp-for="@Model.Drive" />
+            </td>
+            <th>
+                @Html.DisplayNameFor(model => model.Operator)
+            </th>
+            <td>
+                <input type="text" class="form-control" id="blacklash" asp-for="@Model.Operator" />
+            </td>
+            
+        </tr>    
+    
+</table>
+
+<div>
+    <input type="submit" value="submit" class="btn btn-success"/>
+</div>
+
+
